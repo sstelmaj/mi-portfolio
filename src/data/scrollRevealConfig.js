@@ -64,4 +64,11 @@ export const targetElements = [
       origin: "bottom",
     },
   },
+  {
+    element: ".project-wrapper__video",
+    animation: {
+      delay: 1000,
+      origin: window.innerWidth > 768 ? "right" : "bottom",
+    },
+  },
 ];
